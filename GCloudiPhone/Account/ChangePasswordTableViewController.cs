@@ -138,7 +138,7 @@ namespace GCloudiPhone
 
                 InvokeOnMainThread(() =>
                 {
-                    var alert = UIAlertController.Create("Password ändern erfolgreich!", "Dein Passwort wurde erfolgreich geändert.", UIAlertControllerStyle.Alert);
+                    var alert = UIAlertController.Create("Passwort ändern erfolgreich!", "Dein Passwort wurde erfolgreich geändert.", UIAlertControllerStyle.Alert);
                     alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, action => NavigationController.PopViewController(true)));
                     PresentViewController(alert, animated: true, completionHandler: null);
                     ToggleInput();
@@ -151,7 +151,7 @@ namespace GCloudiPhone
                 {
                     InvokeOnMainThread(() =>
                     {
-                        var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", some.Message, UIAlertControllerStyle.Alert);
+                        var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", some.Message, UIAlertControllerStyle.Alert);
                         alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                         PresentViewController(alert, animated: true, completionHandler: null);
                         ToggleInput();
@@ -161,7 +161,7 @@ namespace GCloudiPhone
                 {
                     InvokeOnMainThread(() =>
                     {
-                        var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", "Es ist ein unbekannter Fehler aufgetreten.", UIAlertControllerStyle.Alert);
+                        var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", "Es ist ein unbekannter Fehler aufgetreten.", UIAlertControllerStyle.Alert);
                         alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                         PresentViewController(alert, animated: true, completionHandler: null);
                         ToggleInput();
@@ -175,7 +175,7 @@ namespace GCloudiPhone
         {
             if (string.IsNullOrWhiteSpace(OldPwLabel.Text))
             {
-                var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", "Das alte Password darf nicht leer sein.", UIAlertControllerStyle.Alert);
+                var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", "Das alte Passwort darf nicht leer sein.", UIAlertControllerStyle.Alert);
                 alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                 PresentViewController(alert, animated: true, completionHandler: null);
                 return false;
@@ -183,7 +183,7 @@ namespace GCloudiPhone
 
             if (string.IsNullOrWhiteSpace(NewPwLabel.Text))
             {
-                var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", "Das neue Password darf nicht leer sein.", UIAlertControllerStyle.Alert);
+                var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", "Das neue Passwort darf nicht leer sein.", UIAlertControllerStyle.Alert);
                 alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                 PresentViewController(alert, animated: true, completionHandler: null);
                 return false;
@@ -191,7 +191,7 @@ namespace GCloudiPhone
 
             if (string.IsNullOrWhiteSpace(ConfirmNewPwLabel.Text))
             {
-                var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", "Die Passwortwiederholung darf nicht leer sein.", UIAlertControllerStyle.Alert);
+                var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", "Die Passwortwiederholung darf nicht leer sein.", UIAlertControllerStyle.Alert);
                 alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                 PresentViewController(alert, animated: true, completionHandler: null);
                 return false;
@@ -199,7 +199,7 @@ namespace GCloudiPhone
 
             if (!ConfirmNewPwLabel.Text.Equals(NewPwLabel.Text))
             {
-                var alert = UIAlertController.Create("Password ändern fehlgeschlagen!", "Das neue Passwort und die Passwortwiederholung stimmen nicht überein.", UIAlertControllerStyle.Alert);
+                var alert = UIAlertController.Create("Passwort ändern fehlgeschlagen!", "Das neue Passwort und die Passwortwiederholung stimmen nicht überein.", UIAlertControllerStyle.Alert);
                 alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Cancel, null));
                 PresentViewController(alert, animated: true, completionHandler: null);
                 return false;

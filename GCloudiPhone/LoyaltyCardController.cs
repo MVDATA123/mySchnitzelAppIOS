@@ -127,6 +127,10 @@ namespace GCloudiPhone
                 PointsLabel.TextColor = UIColor.Black;
 
             }
+            else
+            {
+                Console.WriteLine("TEST");
+            }
 
 
 
@@ -156,10 +160,12 @@ namespace GCloudiPhone
 
                 TotalPointsLabel.Hidden = true;
                 PointsLabel.Hidden = true;
+                ProfileButton.Hidden = true;
             }
             else
             {
                 ShadowView.Hidden = false;
+                ProfileButton.Hidden = false;
 
                 // TODO: Uncomment this!
                 //if (new UserRepository(DbBootstraper.Connection).GetCurrentUser().RoleName.Equals("Managers"))
