@@ -3533,11 +3533,11 @@
         <scene sceneID="328292">
             <objects>
                 <viewController id="328293" customClass="WebViewOurProducts" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
-                    <view key="view" contentMode="scaleAspectFit" id="328294">
+                    <view key="view" contentMode="scaleToFill" id="328294">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="328298"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor" colorSpace="custom" customColorSpace="sRGB" red="0.635294117647059" green="0.517647058823529" blue="0.368627450980392" alpha="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Speisekarte" id="328295"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
