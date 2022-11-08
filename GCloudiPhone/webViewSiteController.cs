@@ -20,6 +20,8 @@ namespace GCloudiPhone
             //Dodato jer ukidamo tab bar
             this.NavigationController.SetNavigationBarHidden(false, true);
 
+            NavigationController.NavigationBar.BackgroundColor = UIColor.FromRGB(255, 205, 103);
+
             var webView = new WKWebView(View.Frame, new WKWebViewConfiguration());
             View.AddSubview(webView);
 
