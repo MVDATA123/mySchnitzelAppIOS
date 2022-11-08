@@ -78,7 +78,7 @@ namespace GCloudiPhone
             CouponListNew.SeparatorStyle = UITableViewCellSeparatorStyle.None;
 
             //this.NavigationController.SetNavigationBarHidden(true, true);
-            NavigationController.NavigationBar.BackgroundColor = UIColor.Clear;
+            NavigationController.NavigationBar.BackgroundColor = UIColor.FromRGB(255, 205, 103);
             View.BackgroundColor = UIColor.FromRGB(255, 205, 103);
 
             //this.NavigationController.View.BackgroundColor = UIColor.Clear;
@@ -99,6 +99,9 @@ namespace GCloudiPhone
             //Fiksni naziv radnje
             //NavigationItem.Title = "Eisenstadt";
             //NavigationItem.Title = "";
+
+            NavigationController.NavigationBar.BackgroundColor = UIColor.FromRGB(255, 205, 103);
+            View.BackgroundColor = UIColor.FromRGB(255, 205, 103);
 
             NavigationItem.Title = "Aktuelle Aktionen";
             UINavigationBar.Appearance.TitleTextAttributes = new UIStringAttributes()
