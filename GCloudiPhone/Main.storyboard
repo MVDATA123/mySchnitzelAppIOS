@@ -1372,7 +1372,7 @@
         <!--Gutscheine-->
         <scene sceneID="44411">
             <objects>
-                <tableViewController id="44412" customClass="CouponListViewController" sceneMemberID="viewController">
+                <tableViewController id="44412" customClass="CouponListViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="51" sectionFooterHeight="28" id="44414">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
@@ -3675,7 +3675,7 @@
         <!--Gutscheine-->
         <scene sceneID="434418">
             <objects>
-                <tableViewController id="434419" customClass="ActionCouponListViewController" sceneMemberID="viewController">
+                <tableViewController id="434419" customClass="ActionCouponListViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="434421">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3747,10 +3747,11 @@
                     <connections>
                         <outlet property="CouponListNew" destination="434421" id="name-outlet-434421"/>
                     </connections>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="434441" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1628" y="-456"/>
+            <point key="canvasLocation" x="1803" y="2743"/>
         </scene>
         <!--Punkte einlösen-->
         <scene sceneID="438684">
