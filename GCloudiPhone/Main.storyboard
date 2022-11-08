@@ -946,7 +946,7 @@
         <!--Einstellungen-->
         <scene sceneID="32106">
             <objects>
-                <tableViewController title="Einstellungen" id="32107" customClass="SettingsTableViewController" sceneMemberID="viewController">
+                <tableViewController title="Einstellungen" id="32107" customClass="SettingsTableViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="32153">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1313,6 +1313,7 @@
                         <outlet property="ShareInvitationCodeButton" destination="416127" id="name-outlet-416127"/>
                         <segue destination="6298" kind="presentation" identifier="LoginSegue" modalPresentationStyle="fullScreen" id="107024"/>
                     </connections>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32113" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
