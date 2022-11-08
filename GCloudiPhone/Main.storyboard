@@ -1372,7 +1372,7 @@
         <!--Gutscheine-->
         <scene sceneID="44411">
             <objects>
-                <tableViewController id="44412" customClass="CouponListViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
+                <tableViewController id="44412" customClass="CouponListViewController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES" hasRefreshControl="0">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="51" sectionFooterHeight="28" id="44414">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
@@ -1449,6 +1449,7 @@
                         <outlet property="CouponList" destination="44414" id="name-outlet-44414"/>
                         <segue destination="14984" kind="show" identifier="CashbackSegue" id="47351"/>
                     </connections>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="44419" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3530,7 +3531,7 @@
         <!--Speisekarte-->
         <scene sceneID="328292">
             <objects>
-                <viewController id="328293" customClass="WebViewOurProducts" sceneMemberID="viewController">
+                <viewController id="328293" customClass="WebViewOurProducts" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
                     <view key="view" contentMode="scaleToFill" id="328294">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
