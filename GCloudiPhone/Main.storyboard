@@ -743,7 +743,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="24626">
-                                <rect key="frame" x="0.0" y="42" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="938"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace" white="0" alpha="0"/>
                                 <prototypes>
@@ -941,7 +941,7 @@
                 </segmentedControl>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="22257" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124" y="2908"/>
+            <point key="canvasLocation" x="314" y="3340"/>
         </scene>
         <!--Einstellungen-->
         <scene sceneID="32106">
@@ -3652,7 +3652,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="386587" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="385" y="1044"/>
+            <point key="canvasLocation" x="585" y="999"/>
         </scene>
         <!--Aktionen-->
         <scene sceneID="428240">

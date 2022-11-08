@@ -12,4 +12,4 @@ namespace GCloudiPhone
             UIApplication.Main(args, null, "AppDelegate");
         }
     }
-}
+}   
