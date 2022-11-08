@@ -3513,7 +3513,7 @@
         <!--Produkte-->
         <scene sceneID="323675">
             <objects>
-                <viewController id="323676" customClass="webViewSiteController" sceneMemberID="viewController">
+                <viewController id="323676" customClass="webViewSiteController" sceneMemberID="viewController" extendedLayoutIncludesOpaqueBars="YES">
                     <view key="view" contentMode="scaleToFill" id="323677">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
